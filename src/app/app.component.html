@@ -1,8 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div>
   <div class="banner" id="scene">
-    <div data-depth="1.00"></div>
-    <div data-depth="0.80"><h6>Il BlaBlaCar dei poverih.</h6></div>
+    <div data-depth="1.00"><h1>BluBluCar</h1></div>
+    <div data-depth="1.00"><img src="../assets/images/layer1.png"></div>
+    <div data-depth="0.80"><img src="../assets/images/layer2.png"></div>
+    <div data-depth="0.60"><img src="../assets/images/layer3.png"></div>
+    <div data-depth="0.40"><img src="../assets/images/layer4.png"></div>
+    <div data-depth="0.20"><img src="../assets/images/layer5.png"></div>
+    <div data-depth="0.00"><img src="../assets/images/layer6.png"></div>
   </div>
 
+  <script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+  </script>
 </div>
