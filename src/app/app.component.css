@@ -1,8 +1,33 @@
-.banner{
-  font-family: Verdana;
-  color: white;
+.scene{
+  position: relative;
   width: 100%;
-  height: 300px;
-  text-align: center;
-  background-color: black;
+  display: block;
+}
+
+.scene img{
+  position: relative;
+  top: -210px;
+  width: 80%;
+}
+
+.scene div{
+  width: 100%;
+  text-align: right;
+}
+
+.scene h1{
+  position: relative;
+  bottom: -6vw;
+  font-size: 15vw;
+}
+
+.container {
+  font-weight: 300;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 300px;
+  overflow: hidden;
+  background-color: #111;
 }
