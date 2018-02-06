@@ -30,4 +30,8 @@
   max-height: 300px;
   overflow: hidden;
   background-color: #111;
+  background-image: url("../assets/images/banner-bg.jpg");
+  background-attachment: fixed;
+  background-position-y: -100px;
+  background-size: 100%;
 }
