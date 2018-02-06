@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   display: block;
+  min-height: 300px;
   background-color: rgba(0,0,0,.7);
 }
 
@@ -22,8 +23,19 @@
 
 .scene h1{
   position: relative;
-  bottom: -10px;
-  font-size: 15vw;
+  font-size: 8vw;
+  font-weight: normal;
+  color: orange;
+  text-shadow: 0 0 5px black;
+}
+
+.scene h3{
+  position: relative;
+  top: 8vw;
+  font-size: 4vw;
+  font-weight: normal;
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
 .container {
