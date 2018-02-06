@@ -2,6 +2,11 @@
   position: relative;
   width: 100%;
   display: block;
+  background-color: rgba(0,0,0,.7);
+}
+
+.shadow{
+  text-shadow: 0 0 10px black;
 }
 
 .scene img{
@@ -17,7 +22,7 @@
 
 .scene h1{
   position: relative;
-  bottom: -6vw;
+  bottom: -10px;
   font-size: 15vw;
 }
 
@@ -30,4 +35,8 @@
   max-height: 300px;
   overflow: hidden;
   background-color: #111;
+  background-image: url("../assets/images/banner-bg.jpg");
+  background-attachment: fixed;
+  background-position-y: -100px;
+  background-size: 100%;
 }
