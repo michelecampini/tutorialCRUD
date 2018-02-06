@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BottomScriptsComponent } from './bottom-scripts.component';
+import { NaviComponent } from './navi.component';
 
-describe('BottomScriptsComponent', () => {
-  let component: BottomScriptsComponent;
-  let fixture: ComponentFixture<BottomScriptsComponent>;
+describe('NaviComponent', () => {
+  let component: NaviComponent;
+  let fixture: ComponentFixture<NaviComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BottomScriptsComponent ]
+      declarations: [ NaviComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BottomScriptsComponent);
+    fixture = TestBed.createComponent(NaviComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

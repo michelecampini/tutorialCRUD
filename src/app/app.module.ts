@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { BottomScriptsComponent } from './bottom-scripts/bottom-scripts.component';
+import { NaviComponent } from './navi/navi.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BottomScriptsComponent
+    NaviComponent
   ],
   imports: [
     BrowserModule
