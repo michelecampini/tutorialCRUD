@@ -26,7 +26,7 @@ img {
   transition: background-color ease 0.3s, border-color ease 0.3s, width ease 0.3s, height ease 0.3s, margin ease 0.3s;
 }
 
-.nav-btn:hover {
+.nav-btn:hover, .nav-btn:active {
   border-color: orange;
   background-color: orange;
   width: 30px;
@@ -37,6 +37,16 @@ img {
 
 .nav-btn:hover img {
   width: 30px;
+}
+
+hr{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 45px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid transparent;
 }
 
 

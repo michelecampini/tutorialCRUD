@@ -17,7 +17,7 @@
 
 .scene div{
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 
 .scene h1{
@@ -37,6 +37,7 @@
   background-color: #111;
   background-image: url("../assets/images/banner-bg.jpg");
   background-attachment: fixed;
-  background-position-y: -100px;
+  background-position-y: -10vw;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
