@@ -5,8 +5,24 @@
   font-family: 'Varela Round', sans-serif;
 }
 
+.avatar {
+  background-color: rgba(255,165,0,.2);
+  border-radius: 100%;
+  height: 50px;
+}
 
+.contacts {
+  background: linear-gradient(to right, #333, #444);
+  max-width: 250px;
+  overflow: hidden;
+}
 
-p {
-  font-size: 30px;
+.contact{
+  display: flex;
+  padding: 10px;
+}
+
+p{
+  line-height: 25px;
+  text-overflow: ellipsis;
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-// import { Driver } from "../driver";
-// import { DriverService } from "../driver.service";
+import { Driver } from "../driver";
+import { DriverService } from "../driver.service";
 
 @Component({
   selector: 'app-drivers',
@@ -9,18 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DriversComponent implements OnInit {
 
-  // drivers: Driver[];
+  drivers: Driver[];
 
   constructor(
-    // private driverService: DriverService
+    private driverService: DriverService
   ) { }
 
-  // getDrivers(): void{
-  //   this.driverService.getDrivers().subscribe(drivers => this.drivers = drivers);
-  // }
+  getDrivers(): void{
+    this.driverService.getDrivers().subscribe(drivers => this.drivers = drivers);
+  }
 
   ngOnInit() {
-    // this.getDrivers();
+    this.getDrivers();
   }
 
 }
