@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { DatabaseService }  from './database.service';
 import { AppComponent } from './app.component';
 import { NaviComponent } from './navi/navi.component';
 import { DriverService } from './driver.service';
@@ -15,8 +13,7 @@ import { AppRoutingModule } from './/app-router.module';
 @NgModule({
   declarations: [
     AppComponent,
-    NaviComponent,
-    DriversComponent
+    NaviComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +23,7 @@ import { AppRoutingModule } from './/app-router.module';
     ),
     AppRoutingModule
   ],
-  providers: [DatabaseService, DriverService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
