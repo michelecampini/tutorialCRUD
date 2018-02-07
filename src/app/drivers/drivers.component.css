@@ -12,17 +12,16 @@
 }
 
 .contacts {
-  background: linear-gradient(to right, #333, #444);
   max-width: 250px;
   overflow: hidden;
 }
 
 .contact{
+  background: linear-gradient(to right, #333, #444);
   display: flex;
   padding: 10px;
 }
 
-p{
+.contact p {
   line-height: 25px;
-  text-overflow: ellipsis;
 }
