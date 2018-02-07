@@ -12,29 +12,16 @@
 }
 
 .contacts {
-<<<<<<< HEAD
-=======
-  background: linear-gradient(to right, #333, #444);
->>>>>>> alberto
   max-width: 250px;
   overflow: hidden;
 }
 
 .contact{
-<<<<<<< HEAD
   background: linear-gradient(to right, #333, #444);
-=======
->>>>>>> alberto
   display: flex;
   padding: 10px;
 }
 
-<<<<<<< HEAD
 .contact p {
   line-height: 25px;
-=======
-p{
-  line-height: 25px;
-  text-overflow: ellipsis;
->>>>>>> alberto
 }
