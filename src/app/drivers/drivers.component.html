@@ -1,8 +1,8 @@
 <div class="container">
-  <p>RoutingModule funge bene direi.</p>
-  <ul>
-    <li *ngFor="let driver of drivers">
-      {{driver.nome + " " + driver.cognome}}
-    </li>
-  </ul>
+    <p>Path "/drivers"</p>
+    <div class="contacts">
+      <div class="contact" *ngFor="let driver of drivers">
+        <p><img class="avatar" src="{{driver.avatar}}" />{{driver.nome + " " + driver.cognome}}</p>
+      </div>
+    </div>
 </div>
