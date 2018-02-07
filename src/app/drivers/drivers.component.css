@@ -28,6 +28,7 @@
 
 .contact:hover{
   background: linear-gradient(to right, #444, #555);
+  cursor: pointer;
 }
 
 .contact:active {

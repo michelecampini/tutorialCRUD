@@ -27,7 +27,7 @@
 
 .scene h1{
   position: relative;
-  font-size: calc(80px + 2vw);
+  font-size: 9vw;
   font-weight: normal;
   color: orange;
   text-shadow: 0 0 5px black;
@@ -35,8 +35,8 @@
 
 .scene h3{
   position: relative;
-  top: 85px;
-  font-size: calc(35px + 2vw);
+  top: 170px;
+  font-size: calc(15px + 2vw);
   font-weight: normal;
   color: white;
   text-shadow: 0 0 5px black;
