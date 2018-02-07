@@ -10,13 +10,19 @@ import { DriversComponent } from './drivers/drivers.component';
 import { AppRouterModule } from './/app-router.module';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { DatabaseService } from "./database.service";
+import { PlacesComponent } from './places/places.component';
+import { DatesComponent } from './dates/dates.component';
+import { ShareComponent } from './share/share.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NaviComponent,
-    DriversComponent
+    DriversComponent,
+    PlacesComponent,
+    DatesComponent,
+    ShareComponent
   ],
   imports: [
     BrowserModule,

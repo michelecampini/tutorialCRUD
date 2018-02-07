@@ -1,0 +1,10 @@
+.container{
+  width: 100%;
+  min-height: 300px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+}
+
+p {
+  font-size: 30px;
+}
