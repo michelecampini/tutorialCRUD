@@ -9,7 +9,7 @@ import { NaviComponent } from './navi/navi.component';
 import { DriverService } from './driver.service';
 import { HttpClientModule } from "@angular/common/http";
 import { DriversComponent } from './drivers/drivers.component';
-import { AppRouterModule } from './/app-router.module';
+import { AppRoutingModule } from './/app-router.module';
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import { AppRouterModule } from './/app-router.module';
     HttpClientInMemoryWebApiModule.forRoot(
       DatabaseService, { dataEncapsulation: false }
     ),
-    AppRouterModule
+    AppRoutingModule
   ],
   providers: [DatabaseService, DriverService],
   bootstrap: [AppComponent]
