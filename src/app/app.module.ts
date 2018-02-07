@@ -7,13 +7,16 @@ import { NaviComponent } from './navi/navi.component';
 import { DriverService } from './driver.service';
 import { HttpClientModule } from "@angular/common/http";
 import { DriversComponent } from './drivers/drivers.component';
-import { AppRoutingModule } from './/app-router.module';
+import { AppRouterModule } from './/app-router.module';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { DatabaseService } from "./database.service";
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NaviComponent
+    NaviComponent,
+    DriversComponent
   ],
   imports: [
     BrowserModule,
@@ -21,9 +24,9 @@ import { AppRoutingModule } from './/app-router.module';
     HttpClientInMemoryWebApiModule.forRoot(
       DatabaseService, { dataEncapsulation: false }
     ),
-    AppRoutingModule
+    AppRouterModule
   ],
-  providers: [],
+  providers: [DriverService, DatabaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
