@@ -13,6 +13,7 @@ import { DatabaseService } from "./database.service";
 import { PlacesComponent } from './places/places.component';
 import { DatesComponent } from './dates/dates.component';
 import { ShareComponent } from './share/share.component';
+import { DriverDetailsComponent } from './driver-details/driver-details.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ShareComponent } from './share/share.component';
     DriversComponent,
     PlacesComponent,
     DatesComponent,
-    ShareComponent
+    ShareComponent,
+    DriverDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,11 @@
 <div class="container">
-    <p>Path "/drivers"</p>
-    <div class="contacts">
-      <div class="contact" *ngFor="let driver of drivers">
-        <p><img class="avatar" src="{{driver.avatar}}" />{{driver.nome + " " + driver.cognome}}</p>
-      </div>
+  <p>Path "/drivers"</p>
+  <div class="contacts">
+    <div class="contact" *ngFor="let driver of drivers">
+      <img class="avatar" src="{{driver.avatar}}"/>
+      <p>
+        {{driver.nome + " " + driver.cognome}}
+      </p>
     </div>
+  </div>
 </div>
