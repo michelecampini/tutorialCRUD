@@ -15,6 +15,7 @@ import { DatesComponent } from './dates/dates.component';
 import { ShareComponent } from './share/share.component';
 import { TravelService } from "./travel.service";
 import { PassengersComponent } from './passengers/passengers.component';
+import { ProducersComponent } from './producers/producers.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { PassengersComponent } from './passengers/passengers.component';
     PlacesComponent,
     DatesComponent,
     ShareComponent,
-    PassengersComponent
+    PassengersComponent,
+    ProducersComponent
   ],
   imports: [
     BrowserModule,

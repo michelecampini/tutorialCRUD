@@ -1948,7 +1948,59 @@ export class DatabaseService implements InMemoryDbService {
         viaggio : 74
       }
     ];
+    const producers = [
+      {
+        id : 1,
+        casa_produttrice : "Jeep",
+        sede : "Buurhakaba"
+      },
+      {
+        id : 2,
+        casa_produttrice : "Chrysler",
+        sede : "Tvøroyri"
+      },
+      {
+        id : 3,
+        casa_produttrice : "Ram",
+        sede : "Lyamino"
+      },
+      {
+        id : 4,
+        casa_produttrice : "Mercedes-Benz",
+        sede : "Cullinan"
+      },
+      {
+        id : 5,
+        casa_produttrice : "Lexus",
+        sede : "Harnoli"
+      },
+      {
+        id : 6,
+        casa_produttrice : "Audi",
+        sede : "Slavuta"
+      },
+      {
+        id : 7,
+        casa_produttrice : "Hyundai",
+        sede : "Rivne"
+      },
+      {
+        id : 8,
+        casa_produttrice : "Nissan",
+        sede : "Kafir Qala"
+      },
+      {
+        id : 9,
+        casa_produttrice : "Lincoln",
+        sede : "Washington"
+      },
+      {
+        id : 10,
+        casa_produttrice : "Mazda",
+        sede : "Kukurečani"
+      }
+    ];
 
-    return {drivers, travels, passengers};
+    return {drivers, travels, passengers, producers};
   }
 }
