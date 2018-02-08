@@ -11,6 +11,8 @@ export class DatesComponent implements OnInit {
 
   travels: Travel[];
 
+  public myfilter = {partenza:""};
+
   constructor(
     private travelService: TravelService
   ) { }
