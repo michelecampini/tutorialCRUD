@@ -66,8 +66,7 @@ div.contact{
 }
 
 .contacts::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  display: none;
 }
 
 .contacts::-webkit-scrollbar-thumb {
