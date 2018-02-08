@@ -1,5 +1,8 @@
-<div class="container">
+<div class="driversList">
   <div class="contacts">
+    <div class="searchbar">
+      <input type="text" placeholder="Cerca un guidatore..."/>
+    </div>
     <div class="contact" *ngFor="let driver of drivers">
       <img class="avatar" src="{{driver.avatar}}"/>
       <p>

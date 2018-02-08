@@ -1,0 +1,17 @@
+.container{
+  z-index: 1;
+  position: relative;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: space-between;*/
+  max-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*border-radius: 10px;*/
+  /*box-shadow: inset -3px 3px 8px rgba(0,0,0,.5);*/
+  transition: margin-top ease 0.3s;
+}

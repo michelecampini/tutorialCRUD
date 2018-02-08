@@ -14,39 +14,6 @@
 </head>
 <body>
 <app-root></app-root>
-
-
-<script>
-  $(document).ready(function () {
-
-    var scene = document.getElementById("scene");
-    var parallax = new Parallax(scene);
-    var lastScrollTop = 0;
-
-    $(window).bind('scroll', function () {
-      var scrollPos = $(this).scrollTop();
-      var banner = $('#banner');
-      var scene = $('#scene div');
-      var logo = $('.nav-logo');
-      var containers = $('.container');
-      if (scrollPos > 80) {
-        banner.height(70);
-        scene.fadeOut(300);
-        logo.fadeIn(300);
-        banner.css("background-position-y", "-20vw");
-        containers.css("margin-top", "80px");
-      } else if(scrollPos == 0){
-        banner.height(300);
-        scene.fadeIn(300);
-        logo.fadeOut(300);
-        banner.css("background-position-y", "-10vw");
-        containers.css("margin-top", "386px");
-      }
-      lastScrollTop = scrollPos;
-    });
-
-  });
-
-</script>
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>
