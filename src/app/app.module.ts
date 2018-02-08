@@ -13,6 +13,7 @@ import { DatabaseService } from "./database.service";
 import { PlacesComponent } from './places/places.component';
 import { DatesComponent } from './dates/dates.component';
 import { ShareComponent } from './share/share.component';
+import { DriverDetailsComponent } from './driver-details/driver-details.component';
 import { TravelService } from "./travel.service";
 import { PassengersComponent } from './passengers/passengers.component';
 import { ProducersComponent } from './producers/producers.component';
@@ -25,9 +26,10 @@ import { ProducersComponent } from './producers/producers.component';
     DriversComponent,
     PlacesComponent,
     DatesComponent,
+    DriverDetailsComponent
+    ProducersComponent
     ShareComponent,
     PassengersComponent,
-    ProducersComponent
   ],
   imports: [
     BrowserModule,
