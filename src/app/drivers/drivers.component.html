@@ -1,14 +1,11 @@
 <div class="container">
-  <div>
-    <app-driver-details></app-driver-details>
-    <div class="contacts">
-      <div class="contact" *ngFor="let driver of drivers">
-        <img class="avatar" src="{{driver.avatar}}"/>
-        <p>
-          {{driver.nome + " " + driver.cognome}}
-        </p>
-      </div>
+  <div class="contacts">
+    <div class="contact" *ngFor="let driver of drivers">
+      <img class="avatar" src="{{driver.avatar}}"/>
+      <p>
+        {{driver.nome + " " + driver.cognome}}
+      </p>
     </div>
   </div>
-
+  <app-driver-details></app-driver-details>
 </div>

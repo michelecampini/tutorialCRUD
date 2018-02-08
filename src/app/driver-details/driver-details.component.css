@@ -1,0 +1,24 @@
+.details{
+  /*margin-left: 250px;*/
+  text-align: right;
+  padding: 20px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.details h1{
+  font-weight: normal;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 40px;
+  color:orange;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+.details h4{
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
