@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Travel } from "../travel";
+import { TravelService } from "../travel.service";
 
 @Component({
   selector: 'app-dates',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatesComponent implements OnInit {
 
-  constructor() { }
+  travels: Travel[];
+
+  constructor(
+    private travelService: TravelService
+  ) { }
+
+  getTravels(): void{
+    this.travelService.getTravels().subscribe(travels => this.travels = travels);
+  }
 
   ngOnInit() {
+    this.getTravels();
   }
 
 }

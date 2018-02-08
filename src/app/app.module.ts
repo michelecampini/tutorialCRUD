@@ -13,6 +13,8 @@ import { DatabaseService } from "./database.service";
 import { PlacesComponent } from './places/places.component';
 import { DatesComponent } from './dates/dates.component';
 import { ShareComponent } from './share/share.component';
+import { TravelService } from "./travel.service";
+import { PassengersComponent } from './passengers/passengers.component';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { ShareComponent } from './share/share.component';
     DriversComponent,
     PlacesComponent,
     DatesComponent,
-    ShareComponent
+    ShareComponent,
+    PassengersComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,7 @@ import { ShareComponent } from './share/share.component';
     ),
     AppRouterModule
   ],
-  providers: [DriverService, DatabaseService],
+  providers: [DriverService, TravelService, DatabaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

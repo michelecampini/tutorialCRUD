@@ -1,3 +1,8 @@
-<p>
-  dates works!
-</p>
+<div class="container">
+  <p>Path "/dates"</p>
+  <div class="contacts">
+    <div class="contact" *ngFor="let travel of travels">
+      <p>{{travel.destinazione + " " + travel.data_arrivo}}</p>
+    </div>
+  </div>
+</div>
