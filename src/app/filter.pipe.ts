@@ -8,9 +8,8 @@ export class FilterPipe implements PipeTransform {
 
   transform(items: any, filter: any): any {
     if(!items || !filter){
-      return items
+      return items;
     }
     return items.filter(item => item.partenza.toLowerCase().indexOf(filter.partenza.toLowerCase()) !== -1);
   }
-
 }
