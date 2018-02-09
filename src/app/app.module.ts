@@ -26,8 +26,8 @@ import { ProducersComponent } from './producers/producers.component';
     DriversComponent,
     PlacesComponent,
     DatesComponent,
-    DriverDetailsComponent
-    ProducersComponent
+    DriverDetailsComponent,
+    ProducersComponent,
     ShareComponent,
     PassengersComponent,
   ],
