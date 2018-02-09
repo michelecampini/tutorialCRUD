@@ -2,8 +2,8 @@
   <div class="datesList">
     <h3>Last 5 Travels</h3>
     <div>
-      <div class="contact" *ngFor="let travel of travels">
-        <div>{{travel.destinazione + " " + travel.data_arrivo}}</div>
+      <div class="searchbar" *ngFor="let travel of travels | order by">
+        <div class="contact"><p>{{travel.destinazione + " " + travel.data_arrivo}}</p></div>
       </div>
     </div>
   </div>
