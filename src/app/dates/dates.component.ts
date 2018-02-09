@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Travel } from "../travel";
-import { TravelService } from "../travel.service";
+import { Travel } from '../travel';
+import { TravelService } from '../travel.service';
 
 @Component({
   selector: 'app-dates',

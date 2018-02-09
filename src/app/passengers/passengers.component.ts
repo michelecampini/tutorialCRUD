@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Passenger} from "../passenger";
-import {PassengerService} from "../passenger.service";
+import {Passenger} from '../passenger';
+import {PassengerService} from '../passenger.service';
 
 @Component({
   selector: 'app-passengers',

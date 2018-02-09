@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Producer} from "../producer";
-import {ProducerService} from "../producer.service";
+import {Producer} from '../producer';
+import {ProducerService} from '../producer.service';
 
 @Component({
   selector: 'app-producers',
