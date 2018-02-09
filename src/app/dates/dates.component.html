@@ -1,7 +1,9 @@
-<div class="datesList">
+<div class="container">
+
   <p>Path "/dates"</p>
+  <input [(ngModel)]="myfilter.partenza" />
   <div class="contacts">
-    <div class="contact" *ngFor="let travel of travels">
+    <div class="contact" *ngFor="let travel of travels | filter:myfilter">
       <p>{{travel.destinazione + " " + travel.data_arrivo}}</p>
     </div>
   </div>

@@ -16,7 +16,8 @@ import { ShareComponent } from './share/share.component';
 import { TravelService } from './travel.service';
 import { PassengersComponent } from './passengers/passengers.component';
 import { ProducersComponent } from './producers/producers.component';
-import {DriverDetailsComponent} from './driver-details/driver-details.component';
+import { FilterPipe } from './filter.pipe';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -30,11 +31,13 @@ import {DriverDetailsComponent} from './driver-details/driver-details.component'
     ProducersComponent,
     ShareComponent,
     PassengersComponent,
-    ProducersComponent,
     DriverDetailsComponent
+    ProducersComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(
       DatabaseService, { dataEncapsulation: false }
