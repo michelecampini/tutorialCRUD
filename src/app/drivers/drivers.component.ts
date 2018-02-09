@@ -15,7 +15,7 @@ export class DriversComponent implements OnInit {
     private driverService: DriverService
   ) { }
 
-  getDrivers(): void{
+  getDrivers(): void {
     this.driverService.getDrivers().subscribe(drivers => this.drivers = drivers);
   }
 

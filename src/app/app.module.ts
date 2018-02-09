@@ -16,9 +16,12 @@ import { ShareComponent } from './share/share.component';
 import { TravelService } from './travel.service';
 import { PassengersComponent } from './passengers/passengers.component';
 import { ProducersComponent } from './producers/producers.component';
+
 import { FilterPipe } from './filter.pipe';
-import {FormsModule} from "@angular/forms";
-import {DriverDetailsComponent} from "./driver-details/driver-details.component";
+import {FormsModule} from '@angular/forms';
+import {DriverDetailsComponent} from './driver-details/driver-details.component';
+import { HomePageComponent } from './home-page/home-page.component';
+
 
 
 @NgModule({
@@ -33,7 +36,10 @@ import {DriverDetailsComponent} from "./driver-details/driver-details.component"
     ShareComponent,
     PassengersComponent,
     ProducersComponent,
-    FilterPipe
+    FilterPipe,
+    DriverDetailsComponent,
+    HomePageComponent
+
   ],
   imports: [
     BrowserModule,
