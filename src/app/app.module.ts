@@ -16,7 +16,8 @@ import { ShareComponent } from './share/share.component';
 import { TravelService } from './travel.service';
 import { PassengersComponent } from './passengers/passengers.component';
 import { ProducersComponent } from './producers/producers.component';
-import {DriverDetailsComponent} from './driver-details/driver-details.component';
+import { DriverDetailsComponent } from './driver-details/driver-details.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import {DriverDetailsComponent} from './driver-details/driver-details.component'
     ShareComponent,
     PassengersComponent,
     ProducersComponent,
-    DriverDetailsComponent
+    DriverDetailsComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
