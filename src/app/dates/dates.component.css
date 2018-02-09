@@ -5,10 +5,14 @@
   font-family: 'Varela Round', sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   max-height: calc(100vh - 110px);
   width: 80%;
+  height: 100vh;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: inset -3px 3px 8px rgba(0,0,0,.5);
+  overflow: hidden;
+  background-image: url("/../../assets/images/dates-bg.jpg");
+  background-size: cover;
 }
