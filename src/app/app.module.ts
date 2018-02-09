@@ -26,6 +26,8 @@ import {DriverDetailsComponent} from './driver-details/driver-details.component'
     DriversComponent,
     PlacesComponent,
     DatesComponent,
+    DriverDetailsComponent,
+    ProducersComponent,
     ShareComponent,
     PassengersComponent,
     ProducersComponent,

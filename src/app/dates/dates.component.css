@@ -1,0 +1,14 @@
+.datesList{
+  z-index: 1;
+  position: relative;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: calc(100vh - 110px);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: inset -3px 3px 8px rgba(0,0,0,.5);
+}

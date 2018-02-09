@@ -1,15 +1,24 @@
+.menu {
+  z-index: 999;
+  position: fixed;
+  top: 300px;
+  width: 100%;
+  height: 86px;
+  transition: top ease 0.3s;
+  background-color: #222;
+}
+
 nav {
   display:flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 80px;
+  /*height: 86px;*/
   text-align: center;
 }
 
 img {
   width: 24px;
-  /*border-radius: 100%;*/
   transition: width ease 0.3s;
 }
 
@@ -23,7 +32,7 @@ img {
   border-radius: 100%;
   padding: 10px;
   margin: 20px;
-  transition: background-color ease 0.3s, border-color ease 0.3s, width ease 0.3s, height ease 0.3s, margin ease 0.3s;
+  transition: background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, height 0.3s ease, margin 0.3s ease;
   outline: none;
 }
 
