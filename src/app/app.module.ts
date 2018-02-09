@@ -18,6 +18,7 @@ import { PassengersComponent } from './passengers/passengers.component';
 import { ProducersComponent } from './producers/producers.component';
 import { FilterPipe } from './filter.pipe';
 import {FormsModule} from "@angular/forms";
+import {DriverDetailsComponent} from "./driver-details/driver-details.component";
 
 
 @NgModule({
@@ -31,7 +32,6 @@ import {FormsModule} from "@angular/forms";
     ProducersComponent,
     ShareComponent,
     PassengersComponent,
-    DriverDetailsComponent
     ProducersComponent,
     FilterPipe
   ],
