@@ -4,8 +4,8 @@
   color: white;
   font-family: 'Varela Round', sans-serif;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-height: calc(100vh - 110px);
   width: 80%;
   height: 100vh;
@@ -16,3 +16,32 @@
   background-image: url("/../../assets/images/share-bg.jpg");
   background-size: cover;
 }
+
+.new-trip {
+  text-align: center;
+}
+
+.new-trip img{
+  position: relative;
+  width: 170px;
+  box-shadow: 0px 5px 5px black;
+  border-radius: 100%;
+  background-color: transparent;
+  top: 0px;
+  transition: background-color ease 0.3s, box-shadow ease 0.3s, top ease 0.3s;
+  cursor: pointer;
+}
+
+label {
+  font-size: 30px;
+  font-family: 'Pacifico', sans-serif;
+  text-shadow: 0 5px 5px black;
+}
+
+.new-trip img:hover {
+  background: #000;
+  top: -5px;
+  box-shadow: 0px 10px 10px black;
+}
+
+
