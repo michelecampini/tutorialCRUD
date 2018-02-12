@@ -1,8 +1,24 @@
-<div class="datesList">
+<div class="container">
+
+
+  <input [(ngModel)]="trip.partenza" (keyup)="search(trip.partenza)" />
+  <ul>
+    <li *ngFor="let travel of travels$ | async" >
+      {{travel.partenza}}
+    </li>
+  </ul>
+
+  <input [(ngModel)]="trip.destinazione" (keyup)="search(trip.destinazione)" />
+  <ul>
+    <li *ngFor="let travel of travels$ | async" >
+      {{travel.destinazione}}
+    </li>
+  </ul>
+
+
   <p>Path "/dates"</p>
-  <input [(ngModel)]="myfilter.partenza" />
   <div class="contacts">
-    <div class="contact" *ngFor="let travel of travels | filter:myfilter">
+    <div class="contact" *ngFor="let travel of travels | filter:trip">
       <p>{{travel.destinazione + " " + travel.data_arrivo}}</p>
     </div>
   </div>
