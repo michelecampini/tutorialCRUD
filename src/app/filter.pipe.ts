@@ -10,6 +10,10 @@ export class FilterPipe implements PipeTransform {
     if(!items || !filter){
       return items;
     }
-    return items.filter(item => item.partenza.toLowerCase().indexOf(filter.partenza.toLowerCase()) !== -1);
+    return items.filter(item =>
+      item.partenza.toLowerCase().indexOf(filter.partenza.toLowerCase()) !== -1
+      &&
+      item.destinazione.toLowerCase().indexOf(filter.destinazione.toLowerCase()) !== -1
+    );
   }
 }

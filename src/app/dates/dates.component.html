@@ -1,17 +1,18 @@
 <div class="container">
 
-
-  <input [(ngModel)]="trip.partenza" (keyup)="search(trip.partenza)" />
+  Partenze
+  <input [(ngModel)]="trip.partenza" (keyup)="search1(trip.partenza)" />
   <ul>
-    <li *ngFor="let travel of travels$ | async" >
-      {{travel.partenza}}
+    <li *ngFor="let travel of part$ | async" >
+      <a (click) = "trip.partenza=travel.partenza">{{travel.partenza}}</a>
     </li>
   </ul>
 
-  <input [(ngModel)]="trip.destinazione" (keyup)="search(trip.destinazione)" />
+  Arrivi
+  <input [(ngModel)]="trip.destinazione" (keyup)="search2(trip.destinazione)" />
   <ul>
-    <li *ngFor="let travel of travels$ | async" >
-      {{travel.destinazione}}
+    <li *ngFor="let travel of dest$ | async" >
+      <a (click) = "trip.destinazione=travel.destinazione">{{travel.destinazione}}</a>
     </li>
   </ul>
 
